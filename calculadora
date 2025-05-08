@@ -1,0 +1,42 @@
+print("calculadora com as 7 operações ")
+
+print("digite 1 para somar\ndigite 2 para subtrair\ndigite 3 para dividir\ndigite 4 para multiplicar\ndigite 5 para potência\ndigite 6 para raiz quadrada\ndigite 7 para log.")
+x = int(input("qual operação você deseja fazer? "))
+if (x == 1):
+    z = float(input("primeiro numero: "))
+    y = float(input("segundo numero: "))
+    q = z + y
+    print("essa soma é igual à: ",q)
+elif (x==2):
+     w = float(input("primeiro numero: "))
+     e = float(input("segundo numero: "))
+     r = w - e
+     print("essa subtração é igual à: ",r)
+elif (x==3):
+    t = float(input("primeiro numero"))
+    u = float(input("segundo numero"))
+    i = t/u
+    print("essa divisão é igual á: ",i)
+elif (x==4):
+    o = float(input("primeiro numero: "))
+    p = float(input("segundo numero: "))
+    a = o*p
+    print("essa multiplicação é igual à: ",a)
+elif (x==5):
+    s = float(input("primeiro numero: "))
+    d = float(input("elevado a: "))
+    f = s**d
+    print("essa potencia é igual à: ",f)
+elif(x==6):
+    g = float(input("primeiro numero: "))
+    h = g**0.5
+    print("a raiz quadrada é: ",h)
+elif (x==7):
+    import math
+    def log_base_personalizado(x, base):
+        return math.log(x) / math.log(base)
+    numero = float(input("o numero: "))
+    base = float(input("na base: "))
+    resultado = log_base_personalizado(numero, base)
+
+    print(f"Logaritmo de {numero} na base {base} é: {resultado}")
