@@ -1,6 +1,6 @@
-print("calculadora com as 7 operações ")
+print("calculadora com as 8 operações ")
 
-print("digite 1 para somar\ndigite 2 para subtrair\ndigite 3 para dividir\ndigite 4 para multiplicar\ndigite 5 para potência\ndigite 6 para raiz quadrada\ndigite 7 para log.")
+print("digite 1 para somar\ndigite 2 para subtrair\ndigite 3 para dividir\ndigite 4 para multiplicar\ndigite 5 para potência\ndigite 6 para raiz quadrada\ndigite 7 para log\ndigite 8 para saber se o número é ímpar ou par.")
 x = int(input("qual operação você deseja fazer?? "))
 if (x == 1):
     z = float(input("primeiro numero: "))
@@ -40,3 +40,13 @@ elif (x==7):
     resultado = log_base_personalizado(numero, base)
 
     print(f"Logaritmo de {numero} na base {base} é: {resultado}")
+elif (x==8):
+    z= 1
+    while z!=0:
+        z= float(input("Digite um número:"))
+        if z==0:
+            print("O número é nulo")
+        elif z%2==0:
+            print("O número é par")
+        else:
+            print("O número é ímpar")
