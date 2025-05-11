@@ -1,7 +1,7 @@
 print("calculadora com as 7 operações ")
 
 print("digite 1 para somar\ndigite 2 para subtrair\ndigite 3 para dividir\ndigite 4 para multiplicar\ndigite 5 para potência\ndigite 6 para raiz quadrada\ndigite 7 para log.")
-x = int(input("qual operação você deseja fazer? "))
+x = int(input("qual operação você deseja fazer?? "))
 if (x == 1):
     z = float(input("primeiro numero: "))
     y = float(input("segundo numero: "))
