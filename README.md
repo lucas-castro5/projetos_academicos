@@ -23,7 +23,7 @@ Aqui você encontrará projetos desenvolvidos durante meus estudos, cursos e pro
 ## 📫 Contato
 Se quiser trocar uma ideia ou colaborar em projetos:
 
-- Email: lgcsantos2007@gmail.com  
+- Email: castrosantos329@gmail.com
 - LinkedIn: www.linkedin.com/in/lucas-gabriel-bb832a365 
 - GitHub: lucas-castro5
 
