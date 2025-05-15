@@ -17,7 +17,7 @@ Além disso, concluí o curso de **Internet das Coisas (IoT)** pela **BrasilIA**
 Aqui você encontrará projetos desenvolvidos durante meus estudos, cursos e projetos pessoais, incluindo:
 
 - 📊 Scripts de análise de dados e automações
-
+- 🕹️ Jogos em python
 ---
 
 ## 📫 Contato
